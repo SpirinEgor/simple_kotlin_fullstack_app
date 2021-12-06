@@ -8,5 +8,5 @@ allprojects {
 }
 
 tasks.register("stage") {
-    dependsOn("build")
+    dependsOn("installDist")
 }

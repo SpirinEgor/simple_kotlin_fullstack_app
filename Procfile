@@ -1,1 +1,1 @@
-web: ./gradlew installDist && ./server/build/install/server/bin/server
+web: ./server/build/install/server/bin/server
