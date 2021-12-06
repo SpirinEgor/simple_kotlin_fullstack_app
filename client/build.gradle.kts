@@ -10,7 +10,7 @@ kotlin {
         browser {
             commonWebpackConfig {
                 cssSupport.enabled = true
-                devServer?.port = System.getenv("PORT")?.toInt() ?: 8080
+                devServer?.port = 80
             }
         }
         binaries.executable()
