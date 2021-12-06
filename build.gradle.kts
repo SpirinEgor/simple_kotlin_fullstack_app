@@ -6,3 +6,7 @@ allprojects {
         mavenCentral()
     }
 }
+
+tasks.register("stage") {
+    dependsOn("build")
+}
