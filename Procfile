@@ -1,1 +1,1 @@
-web: ./gradlew browserRun
+web: ./gradlew installDist && ./server/build/install/server/bin/server
