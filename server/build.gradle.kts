@@ -22,6 +22,12 @@ dependencies {
 }
 
 tasks {
+    compileKotlin {
+        kotlinOptions.jvmTarget = "1.8"
+    }
+    compileTestKotlin {
+        kotlinOptions.jvmTarget = "1.8"
+    }
     test {
         useJUnitPlatform()
         testLogging {
