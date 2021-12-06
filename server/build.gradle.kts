@@ -29,3 +29,7 @@ tasks {
         }
     }
 }
+
+tasks.register("stage") {
+    dependsOn("installDist")
+}

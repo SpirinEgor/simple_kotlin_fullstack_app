@@ -6,7 +6,3 @@ allprojects {
         mavenCentral()
     }
 }
-
-tasks.register("stage") {
-    dependsOn("installDist")
-}
