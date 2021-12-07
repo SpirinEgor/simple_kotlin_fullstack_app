@@ -5,8 +5,8 @@ Example of Client-Server application written on pure Kotlin.
 ## Server
 
 Server is an example of RestAPI developed with [Ktor](https://ktor.io).
-It has only two endpoints defined in [`server/src/.../Routing.kt`]
-(server/src/main/kotlin/com/example/plugins/Routing.kt).
+It has only two endpoints defined in
+[`server/src/.../Routing.kt`](server/src/main/kotlin/com/example/plugins/Routing.kt).
 
 To run local use:
 ```shell
